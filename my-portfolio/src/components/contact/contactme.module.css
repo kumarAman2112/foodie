@@ -1,0 +1,78 @@
+.c{
+    display: flex;
+    height: 100vh;
+}
+.cleft{
+    flex: 1;
+}
+.cright{
+    flex:1;
+}
+.cimg{
+    height: 50vh;
+    
+}
+.cbg{
+height:65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.csub{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.cdesc{
+    display: flex;
+    justify-content: center; 
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact{
+    font-size: 40px;
+    text-shadow: 1px 5px 3px rgb(153, 152, 152);
+}
+.container{
+    display: flex;
+    height: 81vh;
+    align-items: center;
+    justify-content: center;
+}
+.fm{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    height: 100%;
+    align-items: center;
+    justify-content:space-evenly;
+   
+}
+input{
+    font-size: 15px;
+    width: 70%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+label{
+    font-size: 20px;
+}
+button{
+    font-size: 18px;
+    font-weight: 800;
+    width:50%;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px 1px black;
+   
+    
+}
+
+button:hover{
+    box-shadow: none;
+    border-bottom: 1px solid black;
+}

@@ -1,0 +1,33 @@
+.a{
+    height: 100vh;
+    display: flex;
+}
+.aleft{
+    flex:1;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+    height: 100%;
+}
+.aright{
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.acard{
+    width: 50%;
+    height: 60vh;
+}
+.aimg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.atitle{
+    font-size:35px;
+    text-shadow:1px 5px 4px rgb(153, 152, 152);
+}
+
+
+

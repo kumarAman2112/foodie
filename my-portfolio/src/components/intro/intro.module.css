@@ -1,0 +1,72 @@
+.i{
+    display:flex;
+    height: 100vh;
+}
+.ileft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iright{
+    flex: 1;
+    position: relative;
+}
+.ileftwrapper{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.iintro{
+    font-size: 30px;
+    font-weight: 200;
+}
+.iname{
+    font-size: 50px;
+}
+.ititle{
+    height: 50px;
+    overflow: hidden;
+}
+.ititlewrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+    45%{
+        transform:translateY(-50px);
+    }
+     75%{
+        transform:translateY(-100px);
+    }
+     100%{
+        transform:translateY(-150px);
+    }
+   
+    
+}
+.ititleitem{
+    height: 50px;
+    font-size: 30px;
+    color: rgb(4, 108, 72);
+    display:flex;
+    align-items:center;
+}
+.idesc{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.iimg{
+height: 100%;
+width: 100%;
+object-fit:cover;
+
+}
+
+.ibg{
+   height:100%;
+   width: 100%;
+   
+}
